@@ -1,0 +1,1048 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		111FF8971DFA9DC600EFC2E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 111FF8961DFA9DC600EFC2E3 /* main.m */; };
+		111FF89A1DFA9DC600EFC2E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 111FF8991DFA9DC600EFC2E3 /* AppDelegate.m */; };
+		111FF89D1DFA9DC600EFC2E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 111FF89C1DFA9DC600EFC2E3 /* ViewController.m */; };
+		111FF8A01DFA9DC600EFC2E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111FF89E1DFA9DC600EFC2E3 /* Main.storyboard */; };
+		111FF8A31DFA9DC600EFC2E3 /* MER_Player.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 111FF8A11DFA9DC600EFC2E3 /* MER_Player.xcdatamodeld */; };
+		111FF8A51DFA9DC600EFC2E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8A41DFA9DC600EFC2E3 /* Assets.xcassets */; };
+		111FF8A81DFA9DC600EFC2E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8A61DFA9DC600EFC2E3 /* LaunchScreen.storyboard */; };
+		111FF8B31DFA9DC600EFC2E3 /* MER_PlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 111FF8B21DFA9DC600EFC2E3 /* MER_PlayerTests.m */; };
+		111FF92E1DFA9EED00EFC2E3 /* MER_MoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 111FF8C21DFA9EED00EFC2E3 /* MER_MoviePlayerViewController.m */; };
+		111FF9301DFA9EED00EFC2E3 /* MER_PlayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 111FF8C71DFA9EED00EFC2E3 /* MER_PlayModel.m */; };
+		111FF9311DFA9EED00EFC2E3 /* kr-video-player-close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8CA1DFA9EED00EFC2E3 /* kr-video-player-close@2x.png */; };
+		111FF9321DFA9EED00EFC2E3 /* kr-video-player-close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8CB1DFA9EED00EFC2E3 /* kr-video-player-close@3x.png */; };
+		111FF9331DFA9EED00EFC2E3 /* kr-video-player-fullscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8CC1DFA9EED00EFC2E3 /* kr-video-player-fullscreen@2x.png */; };
+		111FF9341DFA9EED00EFC2E3 /* kr-video-player-fullscreen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8CD1DFA9EED00EFC2E3 /* kr-video-player-fullscreen@3x.png */; };
+		111FF9351DFA9EED00EFC2E3 /* kr-video-player-pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8CE1DFA9EED00EFC2E3 /* kr-video-player-pause@2x.png */; };
+		111FF9361DFA9EED00EFC2E3 /* kr-video-player-pause@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8CF1DFA9EED00EFC2E3 /* kr-video-player-pause@3x.png */; };
+		111FF9371DFA9EED00EFC2E3 /* kr-video-player-play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8D01DFA9EED00EFC2E3 /* kr-video-player-play@2x.png */; };
+		111FF9381DFA9EED00EFC2E3 /* kr-video-player-play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8D11DFA9EED00EFC2E3 /* kr-video-player-play@3x.png */; };
+		111FF9391DFA9EED00EFC2E3 /* kr-video-player-point@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8D21DFA9EED00EFC2E3 /* kr-video-player-point@2x.png */; };
+		111FF93A1DFA9EED00EFC2E3 /* kr-video-player-point@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8D31DFA9EED00EFC2E3 /* kr-video-player-point@3x.png */; };
+		111FF93B1DFA9EED00EFC2E3 /* kr-video-player-shrinkscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8D41DFA9EED00EFC2E3 /* kr-video-player-shrinkscreen@2x.png */; };
+		111FF93C1DFA9EED00EFC2E3 /* kr-video-player-shrinkscreen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8D51DFA9EED00EFC2E3 /* kr-video-player-shrinkscreen@3x.png */; };
+		111FF93D1DFA9EED00EFC2E3 /* zx-video-banner-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8D61DFA9EED00EFC2E3 /* zx-video-banner-back.png */; };
+		111FF93E1DFA9EED00EFC2E3 /* zx-video-banner-back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8D71DFA9EED00EFC2E3 /* zx-video-banner-back@2x.png */; };
+		111FF93F1DFA9EED00EFC2E3 /* zx-video-player-brightness@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8D81DFA9EED00EFC2E3 /* zx-video-player-brightness@2x.png */; };
+		111FF9401DFA9EED00EFC2E3 /* zx-video-player-brightness@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8D91DFA9EED00EFC2E3 /* zx-video-player-brightness@3x.png */; };
+		111FF9411DFA9EED00EFC2E3 /* zx-video-player-fastForward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8DA1DFA9EED00EFC2E3 /* zx-video-player-fastForward@2x.png */; };
+		111FF9421DFA9EED00EFC2E3 /* zx-video-player-fastForward@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8DB1DFA9EED00EFC2E3 /* zx-video-player-fastForward@3x.png */; };
+		111FF9431DFA9EED00EFC2E3 /* zx-video-player-lock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8DC1DFA9EED00EFC2E3 /* zx-video-player-lock@2x.png */; };
+		111FF9441DFA9EED00EFC2E3 /* zx-video-player-lock@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8DD1DFA9EED00EFC2E3 /* zx-video-player-lock@3x.png */; };
+		111FF9451DFA9EED00EFC2E3 /* zx-video-player-rewind@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8DE1DFA9EED00EFC2E3 /* zx-video-player-rewind@2x.png */; };
+		111FF9461DFA9EED00EFC2E3 /* zx-video-player-rewind@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8DF1DFA9EED00EFC2E3 /* zx-video-player-rewind@3x.png */; };
+		111FF9471DFA9EED00EFC2E3 /* zx-video-player-unlock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8E01DFA9EED00EFC2E3 /* zx-video-player-unlock@2x.png */; };
+		111FF9481DFA9EED00EFC2E3 /* zx-video-player-unlock@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8E11DFA9EED00EFC2E3 /* zx-video-player-unlock@3x.png */; };
+		111FF9491DFA9EED00EFC2E3 /* zx-video-player-volume@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8E21DFA9EED00EFC2E3 /* zx-video-player-volume@2x.png */; };
+		111FF94A1DFA9EED00EFC2E3 /* zx-video-player-volume@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8E31DFA9EED00EFC2E3 /* zx-video-player-volume@3x.png */; };
+		111FF94B1DFA9EED00EFC2E3 /* zx-video-player-volumeMute@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8E41DFA9EED00EFC2E3 /* zx-video-player-volumeMute@2x.png */; };
+		111FF94C1DFA9EED00EFC2E3 /* zx-video-player-volumeMute@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8E51DFA9EED00EFC2E3 /* zx-video-player-volumeMute@3x.png */; };
+		111FF94D1DFA9EED00EFC2E3 /* MER_PlayerControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 111FF8E91DFA9EED00EFC2E3 /* MER_PlayerControllerView.m */; };
+		111FF94E1DFA9EED00EFC2E3 /* MER_PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 111FF8EB1DFA9EED00EFC2E3 /* MER_PlayerView.m */; };
+		111FF94F1DFA9EED00EFC2E3 /* AC_ProgressSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 111FF8EE1DFA9EED00EFC2E3 /* AC_ProgressSlider.m */; };
+		111FF9501DFA9EED00EFC2E3 /* ASValuePopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 111FF8F01DFA9EED00EFC2E3 /* ASValuePopUpView.m */; };
+		111FF9511DFA9EED00EFC2E3 /* ASValueTrackingSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 111FF8F21DFA9EED00EFC2E3 /* ASValueTrackingSlider.m */; };
+		111FF9521DFA9EED00EFC2E3 /* ZXVideoPlayerBrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 111FF8F41DFA9EED00EFC2E3 /* ZXVideoPlayerBrightnessView.m */; };
+		111FF9531DFA9EED00EFC2E3 /* ZXVideoPlayerVolumeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 111FF8F61DFA9EED00EFC2E3 /* ZXVideoPlayerVolumeView.m */; };
+		111FF9541DFA9EED00EFC2E3 /* MERPlayer_back_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8FA1DFA9EED00EFC2E3 /* MERPlayer_back_full.png */; };
+		111FF9551DFA9EED00EFC2E3 /* MERPlayer_back_full@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8FB1DFA9EED00EFC2E3 /* MERPlayer_back_full@2x.png */; };
+		111FF9561DFA9EED00EFC2E3 /* MERPlayer_back_full@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8FC1DFA9EED00EFC2E3 /* MERPlayer_back_full@3x.png */; };
+		111FF9571DFA9EED00EFC2E3 /* MERPlayer_bottom_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8FD1DFA9EED00EFC2E3 /* MERPlayer_bottom_shadow.png */; };
+		111FF9581DFA9EED00EFC2E3 /* MERPlayer_brightness@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8FE1DFA9EED00EFC2E3 /* MERPlayer_brightness@2x.png */; };
+		111FF9591DFA9EED00EFC2E3 /* MERPlayer_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF8FF1DFA9EED00EFC2E3 /* MERPlayer_close.png */; };
+		111FF95A1DFA9EED00EFC2E3 /* MERPlayer_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF9001DFA9EED00EFC2E3 /* MERPlayer_close@2x.png */; };
+		111FF95B1DFA9EED00EFC2E3 /* MERPlayer_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF9011DFA9EED00EFC2E3 /* MERPlayer_close@3x.png */; };
+		111FF95C1DFA9EED00EFC2E3 /* MERPlayer_download@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF9021DFA9EED00EFC2E3 /* MERPlayer_download@2x.png */; };
+		111FF95D1DFA9EED00EFC2E3 /* MERPlayer_download@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF9031DFA9EED00EFC2E3 /* MERPlayer_download@3x.png */; };
+		111FF95E1DFA9EED00EFC2E3 /* MERPlayer_fastForward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF9041DFA9EED00EFC2E3 /* MERPlayer_fastForward@2x.png */; };
+		111FF95F1DFA9EED00EFC2E3 /* MERPlayer_fastForward@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF9051DFA9EED00EFC2E3 /* MERPlayer_fastForward@3x.png */; };
+		111FF9601DFA9EED00EFC2E3 /* MERPlayer_fastRewind@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF9061DFA9EED00EFC2E3 /* MERPlayer_fastRewind@2x.png */; };
+		111FF9611DFA9EED00EFC2E3 /* MERPlayer_fastRewind@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF9071DFA9EED00EFC2E3 /* MERPlayer_fastRewind@3x.png */; };
+		111FF9621DFA9EED00EFC2E3 /* MERPlayer_fullscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF9081DFA9EED00EFC2E3 /* MERPlayer_fullscreen.png */; };
+		111FF9631DFA9EED00EFC2E3 /* MERPlayer_fullscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF9091DFA9EED00EFC2E3 /* MERPlayer_fullscreen@2x.png */; };
+		111FF9641DFA9EED00EFC2E3 /* MERPlayer_fullscreen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF90A1DFA9EED00EFC2E3 /* MERPlayer_fullscreen@3x.png */; };
+		111FF9651DFA9EED00EFC2E3 /* MERPlayer_loading_bgView.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 111FF90B1DFA9EED00EFC2E3 /* MERPlayer_loading_bgView.jpg */; };
+		111FF9661DFA9EED00EFC2E3 /* MERPlayer_lock-nor.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF90C1DFA9EED00EFC2E3 /* MERPlayer_lock-nor.png */; };
+		111FF9671DFA9EED00EFC2E3 /* MERPlayer_lock-nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF90D1DFA9EED00EFC2E3 /* MERPlayer_lock-nor@2x.png */; };
+		111FF9681DFA9EED00EFC2E3 /* MERPlayer_lock-nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF90E1DFA9EED00EFC2E3 /* MERPlayer_lock-nor@3x.png */; };
+		111FF9691DFA9EED00EFC2E3 /* MERPlayer_management_mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF90F1DFA9EED00EFC2E3 /* MERPlayer_management_mask@2x.png */; };
+		111FF96A1DFA9EED00EFC2E3 /* MERPlayer_next.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF9101DFA9EED00EFC2E3 /* MERPlayer_next.png */; };
+		111FF96B1DFA9EED00EFC2E3 /* MERPlayer_next@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF9111DFA9EED00EFC2E3 /* MERPlayer_next@2x.png */; };
+		111FF96C1DFA9EED00EFC2E3 /* MERPlayer_next@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF9121DFA9EED00EFC2E3 /* MERPlayer_next@3x.png */; };
+		111FF96D1DFA9EED00EFC2E3 /* MERPlayer_not_download@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF9131DFA9EED00EFC2E3 /* MERPlayer_not_download@2x.png */; };
+		111FF96E1DFA9EED00EFC2E3 /* MERPlayer_not_download@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF9141DFA9EED00EFC2E3 /* MERPlayer_not_download@3x.png */; };
+		111FF96F1DFA9EED00EFC2E3 /* MERPlayer_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF9151DFA9EED00EFC2E3 /* MERPlayer_pause.png */; };
+		111FF9701DFA9EED00EFC2E3 /* MERPlayer_pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF9161DFA9EED00EFC2E3 /* MERPlayer_pause@2x.png */; };
+		111FF9711DFA9EED00EFC2E3 /* MERPlayer_pause@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF9171DFA9EED00EFC2E3 /* MERPlayer_pause@3x.png */; };
+		111FF9721DFA9EED00EFC2E3 /* MERPlayer_play.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF9181DFA9EED00EFC2E3 /* MERPlayer_play.png */; };
+		111FF9731DFA9EED00EFC2E3 /* MERPlayer_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF9191DFA9EED00EFC2E3 /* MERPlayer_play@2x.png */; };
+		111FF9741DFA9EED00EFC2E3 /* MERPlayer_play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF91A1DFA9EED00EFC2E3 /* MERPlayer_play@3x.png */; };
+		111FF9751DFA9EED00EFC2E3 /* MERPlayer_play_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF91B1DFA9EED00EFC2E3 /* MERPlayer_play_btn@2x.png */; };
+		111FF9761DFA9EED00EFC2E3 /* MERPlayer_repeat_video.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF91C1DFA9EED00EFC2E3 /* MERPlayer_repeat_video.png */; };
+		111FF9771DFA9EED00EFC2E3 /* MERPlayer_repeat_video@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF91D1DFA9EED00EFC2E3 /* MERPlayer_repeat_video@2x.png */; };
+		111FF9781DFA9EED00EFC2E3 /* MERPlayer_repeat_video@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF91E1DFA9EED00EFC2E3 /* MERPlayer_repeat_video@3x.png */; };
+		111FF9791DFA9EED00EFC2E3 /* MERPlayer_shrinkscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF91F1DFA9EED00EFC2E3 /* MERPlayer_shrinkscreen.png */; };
+		111FF97A1DFA9EED00EFC2E3 /* MERPlayer_shrinkscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF9201DFA9EED00EFC2E3 /* MERPlayer_shrinkscreen@2x.png */; };
+		111FF97B1DFA9EED00EFC2E3 /* MERPlayer_shrinkscreen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF9211DFA9EED00EFC2E3 /* MERPlayer_shrinkscreen@3x.png */; };
+		111FF97C1DFA9EED00EFC2E3 /* MERPlayer_slider.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF9221DFA9EED00EFC2E3 /* MERPlayer_slider.png */; };
+		111FF97D1DFA9EED00EFC2E3 /* MERPlayer_slider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF9231DFA9EED00EFC2E3 /* MERPlayer_slider@2x.png */; };
+		111FF97E1DFA9EED00EFC2E3 /* MERPlayer_slider@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF9241DFA9EED00EFC2E3 /* MERPlayer_slider@3x.png */; };
+		111FF97F1DFA9EED00EFC2E3 /* MERPlayer_top_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF9251DFA9EED00EFC2E3 /* MERPlayer_top_shadow.png */; };
+		111FF9801DFA9EED00EFC2E3 /* MERPlayer_unlock-nor.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF9261DFA9EED00EFC2E3 /* MERPlayer_unlock-nor.png */; };
+		111FF9811DFA9EED00EFC2E3 /* MERPlayer_unlock-nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF9271DFA9EED00EFC2E3 /* MERPlayer_unlock-nor@2x.png */; };
+		111FF9821DFA9EED00EFC2E3 /* MERPlayer_unlock-nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FF9281DFA9EED00EFC2E3 /* MERPlayer_unlock-nor@3x.png */; };
+		111FF9831DFA9EED00EFC2E3 /* FeHourGlass.m in Sources */ = {isa = PBXBuildFile; fileRef = 111FF92B1DFA9EED00EFC2E3 /* FeHourGlass.m */; };
+		111FF9841DFA9EED00EFC2E3 /* UIColor+flat.m in Sources */ = {isa = PBXBuildFile; fileRef = 111FF92D1DFA9EED00EFC2E3 /* UIColor+flat.m */; };
+		363689FCAEDE968CB393754C /* libPods-MER_Player.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACA957E8A3DFC0ED21867DE /* libPods-MER_Player.a */; };
+		9D857AA2020ECEC50DBD482F /* libPods-MER_PlayerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A256A7B8BE5B46F503BBB07A /* libPods-MER_PlayerTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		111FF8AF1DFA9DC600EFC2E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 111FF88A1DFA9DC600EFC2E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 111FF8911DFA9DC600EFC2E3;
+			remoteInfo = MER_Player;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		111FF8921DFA9DC600EFC2E3 /* MER_Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MER_Player.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		111FF8961DFA9DC600EFC2E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		111FF8981DFA9DC600EFC2E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		111FF8991DFA9DC600EFC2E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		111FF89B1DFA9DC600EFC2E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		111FF89C1DFA9DC600EFC2E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		111FF89F1DFA9DC600EFC2E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		111FF8A21DFA9DC600EFC2E3 /* MER_Player.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MER_Player.xcdatamodel; sourceTree = "<group>"; };
+		111FF8A41DFA9DC600EFC2E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		111FF8A71DFA9DC600EFC2E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		111FF8A91DFA9DC600EFC2E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		111FF8AE1DFA9DC600EFC2E3 /* MER_PlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MER_PlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		111FF8B21DFA9DC600EFC2E3 /* MER_PlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MER_PlayerTests.m; sourceTree = "<group>"; };
+		111FF8B41DFA9DC600EFC2E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		111FF8BE1DFA9EED00EFC2E3 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		111FF8C11DFA9EED00EFC2E3 /* MER_MoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MER_MoviePlayerViewController.h; sourceTree = "<group>"; };
+		111FF8C21DFA9EED00EFC2E3 /* MER_MoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MER_MoviePlayerViewController.m; sourceTree = "<group>"; };
+		111FF8C61DFA9EED00EFC2E3 /* MER_PlayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MER_PlayModel.h; sourceTree = "<group>"; };
+		111FF8C71DFA9EED00EFC2E3 /* MER_PlayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MER_PlayModel.m; sourceTree = "<group>"; };
+		111FF8CA1DFA9EED00EFC2E3 /* kr-video-player-close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kr-video-player-close@2x.png"; sourceTree = "<group>"; };
+		111FF8CB1DFA9EED00EFC2E3 /* kr-video-player-close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kr-video-player-close@3x.png"; sourceTree = "<group>"; };
+		111FF8CC1DFA9EED00EFC2E3 /* kr-video-player-fullscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kr-video-player-fullscreen@2x.png"; sourceTree = "<group>"; };
+		111FF8CD1DFA9EED00EFC2E3 /* kr-video-player-fullscreen@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kr-video-player-fullscreen@3x.png"; sourceTree = "<group>"; };
+		111FF8CE1DFA9EED00EFC2E3 /* kr-video-player-pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kr-video-player-pause@2x.png"; sourceTree = "<group>"; };
+		111FF8CF1DFA9EED00EFC2E3 /* kr-video-player-pause@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kr-video-player-pause@3x.png"; sourceTree = "<group>"; };
+		111FF8D01DFA9EED00EFC2E3 /* kr-video-player-play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kr-video-player-play@2x.png"; sourceTree = "<group>"; };
+		111FF8D11DFA9EED00EFC2E3 /* kr-video-player-play@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kr-video-player-play@3x.png"; sourceTree = "<group>"; };
+		111FF8D21DFA9EED00EFC2E3 /* kr-video-player-point@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kr-video-player-point@2x.png"; sourceTree = "<group>"; };
+		111FF8D31DFA9EED00EFC2E3 /* kr-video-player-point@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kr-video-player-point@3x.png"; sourceTree = "<group>"; };
+		111FF8D41DFA9EED00EFC2E3 /* kr-video-player-shrinkscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kr-video-player-shrinkscreen@2x.png"; sourceTree = "<group>"; };
+		111FF8D51DFA9EED00EFC2E3 /* kr-video-player-shrinkscreen@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kr-video-player-shrinkscreen@3x.png"; sourceTree = "<group>"; };
+		111FF8D61DFA9EED00EFC2E3 /* zx-video-banner-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zx-video-banner-back.png"; sourceTree = "<group>"; };
+		111FF8D71DFA9EED00EFC2E3 /* zx-video-banner-back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zx-video-banner-back@2x.png"; sourceTree = "<group>"; };
+		111FF8D81DFA9EED00EFC2E3 /* zx-video-player-brightness@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zx-video-player-brightness@2x.png"; sourceTree = "<group>"; };
+		111FF8D91DFA9EED00EFC2E3 /* zx-video-player-brightness@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zx-video-player-brightness@3x.png"; sourceTree = "<group>"; };
+		111FF8DA1DFA9EED00EFC2E3 /* zx-video-player-fastForward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zx-video-player-fastForward@2x.png"; sourceTree = "<group>"; };
+		111FF8DB1DFA9EED00EFC2E3 /* zx-video-player-fastForward@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zx-video-player-fastForward@3x.png"; sourceTree = "<group>"; };
+		111FF8DC1DFA9EED00EFC2E3 /* zx-video-player-lock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zx-video-player-lock@2x.png"; sourceTree = "<group>"; };
+		111FF8DD1DFA9EED00EFC2E3 /* zx-video-player-lock@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zx-video-player-lock@3x.png"; sourceTree = "<group>"; };
+		111FF8DE1DFA9EED00EFC2E3 /* zx-video-player-rewind@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zx-video-player-rewind@2x.png"; sourceTree = "<group>"; };
+		111FF8DF1DFA9EED00EFC2E3 /* zx-video-player-rewind@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zx-video-player-rewind@3x.png"; sourceTree = "<group>"; };
+		111FF8E01DFA9EED00EFC2E3 /* zx-video-player-unlock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zx-video-player-unlock@2x.png"; sourceTree = "<group>"; };
+		111FF8E11DFA9EED00EFC2E3 /* zx-video-player-unlock@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zx-video-player-unlock@3x.png"; sourceTree = "<group>"; };
+		111FF8E21DFA9EED00EFC2E3 /* zx-video-player-volume@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zx-video-player-volume@2x.png"; sourceTree = "<group>"; };
+		111FF8E31DFA9EED00EFC2E3 /* zx-video-player-volume@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zx-video-player-volume@3x.png"; sourceTree = "<group>"; };
+		111FF8E41DFA9EED00EFC2E3 /* zx-video-player-volumeMute@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zx-video-player-volumeMute@2x.png"; sourceTree = "<group>"; };
+		111FF8E51DFA9EED00EFC2E3 /* zx-video-player-volumeMute@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zx-video-player-volumeMute@3x.png"; sourceTree = "<group>"; };
+		111FF8E71DFA9EED00EFC2E3 /* MER_PlayerControlDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MER_PlayerControlDelegate.h; sourceTree = "<group>"; };
+		111FF8E81DFA9EED00EFC2E3 /* MER_PlayerControllerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MER_PlayerControllerView.h; sourceTree = "<group>"; };
+		111FF8E91DFA9EED00EFC2E3 /* MER_PlayerControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MER_PlayerControllerView.m; sourceTree = "<group>"; };
+		111FF8EA1DFA9EED00EFC2E3 /* MER_PlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MER_PlayerView.h; sourceTree = "<group>"; };
+		111FF8EB1DFA9EED00EFC2E3 /* MER_PlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MER_PlayerView.m; sourceTree = "<group>"; };
+		111FF8ED1DFA9EED00EFC2E3 /* AC_ProgressSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AC_ProgressSlider.h; sourceTree = "<group>"; };
+		111FF8EE1DFA9EED00EFC2E3 /* AC_ProgressSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AC_ProgressSlider.m; sourceTree = "<group>"; };
+		111FF8EF1DFA9EED00EFC2E3 /* ASValuePopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValuePopUpView.h; sourceTree = "<group>"; };
+		111FF8F01DFA9EED00EFC2E3 /* ASValuePopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValuePopUpView.m; sourceTree = "<group>"; };
+		111FF8F11DFA9EED00EFC2E3 /* ASValueTrackingSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValueTrackingSlider.h; sourceTree = "<group>"; };
+		111FF8F21DFA9EED00EFC2E3 /* ASValueTrackingSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValueTrackingSlider.m; sourceTree = "<group>"; };
+		111FF8F31DFA9EED00EFC2E3 /* ZXVideoPlayerBrightnessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXVideoPlayerBrightnessView.h; sourceTree = "<group>"; };
+		111FF8F41DFA9EED00EFC2E3 /* ZXVideoPlayerBrightnessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXVideoPlayerBrightnessView.m; sourceTree = "<group>"; };
+		111FF8F51DFA9EED00EFC2E3 /* ZXVideoPlayerVolumeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXVideoPlayerVolumeView.h; sourceTree = "<group>"; };
+		111FF8F61DFA9EED00EFC2E3 /* ZXVideoPlayerVolumeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXVideoPlayerVolumeView.m; sourceTree = "<group>"; };
+		111FF8F71DFA9EED00EFC2E3 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		111FF8FA1DFA9EED00EFC2E3 /* MERPlayer_back_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MERPlayer_back_full.png; sourceTree = "<group>"; };
+		111FF8FB1DFA9EED00EFC2E3 /* MERPlayer_back_full@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_back_full@2x.png"; sourceTree = "<group>"; };
+		111FF8FC1DFA9EED00EFC2E3 /* MERPlayer_back_full@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_back_full@3x.png"; sourceTree = "<group>"; };
+		111FF8FD1DFA9EED00EFC2E3 /* MERPlayer_bottom_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MERPlayer_bottom_shadow.png; sourceTree = "<group>"; };
+		111FF8FE1DFA9EED00EFC2E3 /* MERPlayer_brightness@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_brightness@2x.png"; sourceTree = "<group>"; };
+		111FF8FF1DFA9EED00EFC2E3 /* MERPlayer_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MERPlayer_close.png; sourceTree = "<group>"; };
+		111FF9001DFA9EED00EFC2E3 /* MERPlayer_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_close@2x.png"; sourceTree = "<group>"; };
+		111FF9011DFA9EED00EFC2E3 /* MERPlayer_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_close@3x.png"; sourceTree = "<group>"; };
+		111FF9021DFA9EED00EFC2E3 /* MERPlayer_download@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_download@2x.png"; sourceTree = "<group>"; };
+		111FF9031DFA9EED00EFC2E3 /* MERPlayer_download@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_download@3x.png"; sourceTree = "<group>"; };
+		111FF9041DFA9EED00EFC2E3 /* MERPlayer_fastForward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_fastForward@2x.png"; sourceTree = "<group>"; };
+		111FF9051DFA9EED00EFC2E3 /* MERPlayer_fastForward@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_fastForward@3x.png"; sourceTree = "<group>"; };
+		111FF9061DFA9EED00EFC2E3 /* MERPlayer_fastRewind@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_fastRewind@2x.png"; sourceTree = "<group>"; };
+		111FF9071DFA9EED00EFC2E3 /* MERPlayer_fastRewind@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_fastRewind@3x.png"; sourceTree = "<group>"; };
+		111FF9081DFA9EED00EFC2E3 /* MERPlayer_fullscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MERPlayer_fullscreen.png; sourceTree = "<group>"; };
+		111FF9091DFA9EED00EFC2E3 /* MERPlayer_fullscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_fullscreen@2x.png"; sourceTree = "<group>"; };
+		111FF90A1DFA9EED00EFC2E3 /* MERPlayer_fullscreen@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_fullscreen@3x.png"; sourceTree = "<group>"; };
+		111FF90B1DFA9EED00EFC2E3 /* MERPlayer_loading_bgView.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MERPlayer_loading_bgView.jpg; sourceTree = "<group>"; };
+		111FF90C1DFA9EED00EFC2E3 /* MERPlayer_lock-nor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_lock-nor.png"; sourceTree = "<group>"; };
+		111FF90D1DFA9EED00EFC2E3 /* MERPlayer_lock-nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_lock-nor@2x.png"; sourceTree = "<group>"; };
+		111FF90E1DFA9EED00EFC2E3 /* MERPlayer_lock-nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_lock-nor@3x.png"; sourceTree = "<group>"; };
+		111FF90F1DFA9EED00EFC2E3 /* MERPlayer_management_mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_management_mask@2x.png"; sourceTree = "<group>"; };
+		111FF9101DFA9EED00EFC2E3 /* MERPlayer_next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MERPlayer_next.png; sourceTree = "<group>"; };
+		111FF9111DFA9EED00EFC2E3 /* MERPlayer_next@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_next@2x.png"; sourceTree = "<group>"; };
+		111FF9121DFA9EED00EFC2E3 /* MERPlayer_next@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_next@3x.png"; sourceTree = "<group>"; };
+		111FF9131DFA9EED00EFC2E3 /* MERPlayer_not_download@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_not_download@2x.png"; sourceTree = "<group>"; };
+		111FF9141DFA9EED00EFC2E3 /* MERPlayer_not_download@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_not_download@3x.png"; sourceTree = "<group>"; };
+		111FF9151DFA9EED00EFC2E3 /* MERPlayer_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MERPlayer_pause.png; sourceTree = "<group>"; };
+		111FF9161DFA9EED00EFC2E3 /* MERPlayer_pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_pause@2x.png"; sourceTree = "<group>"; };
+		111FF9171DFA9EED00EFC2E3 /* MERPlayer_pause@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_pause@3x.png"; sourceTree = "<group>"; };
+		111FF9181DFA9EED00EFC2E3 /* MERPlayer_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MERPlayer_play.png; sourceTree = "<group>"; };
+		111FF9191DFA9EED00EFC2E3 /* MERPlayer_play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_play@2x.png"; sourceTree = "<group>"; };
+		111FF91A1DFA9EED00EFC2E3 /* MERPlayer_play@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_play@3x.png"; sourceTree = "<group>"; };
+		111FF91B1DFA9EED00EFC2E3 /* MERPlayer_play_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_play_btn@2x.png"; sourceTree = "<group>"; };
+		111FF91C1DFA9EED00EFC2E3 /* MERPlayer_repeat_video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MERPlayer_repeat_video.png; sourceTree = "<group>"; };
+		111FF91D1DFA9EED00EFC2E3 /* MERPlayer_repeat_video@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_repeat_video@2x.png"; sourceTree = "<group>"; };
+		111FF91E1DFA9EED00EFC2E3 /* MERPlayer_repeat_video@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_repeat_video@3x.png"; sourceTree = "<group>"; };
+		111FF91F1DFA9EED00EFC2E3 /* MERPlayer_shrinkscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MERPlayer_shrinkscreen.png; sourceTree = "<group>"; };
+		111FF9201DFA9EED00EFC2E3 /* MERPlayer_shrinkscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_shrinkscreen@2x.png"; sourceTree = "<group>"; };
+		111FF9211DFA9EED00EFC2E3 /* MERPlayer_shrinkscreen@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_shrinkscreen@3x.png"; sourceTree = "<group>"; };
+		111FF9221DFA9EED00EFC2E3 /* MERPlayer_slider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MERPlayer_slider.png; sourceTree = "<group>"; };
+		111FF9231DFA9EED00EFC2E3 /* MERPlayer_slider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_slider@2x.png"; sourceTree = "<group>"; };
+		111FF9241DFA9EED00EFC2E3 /* MERPlayer_slider@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_slider@3x.png"; sourceTree = "<group>"; };
+		111FF9251DFA9EED00EFC2E3 /* MERPlayer_top_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MERPlayer_top_shadow.png; sourceTree = "<group>"; };
+		111FF9261DFA9EED00EFC2E3 /* MERPlayer_unlock-nor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_unlock-nor.png"; sourceTree = "<group>"; };
+		111FF9271DFA9EED00EFC2E3 /* MERPlayer_unlock-nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_unlock-nor@2x.png"; sourceTree = "<group>"; };
+		111FF9281DFA9EED00EFC2E3 /* MERPlayer_unlock-nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MERPlayer_unlock-nor@3x.png"; sourceTree = "<group>"; };
+		111FF92A1DFA9EED00EFC2E3 /* FeHourGlass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeHourGlass.h; sourceTree = "<group>"; };
+		111FF92B1DFA9EED00EFC2E3 /* FeHourGlass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeHourGlass.m; sourceTree = "<group>"; };
+		111FF92C1DFA9EED00EFC2E3 /* UIColor+flat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+flat.h"; sourceTree = "<group>"; };
+		111FF92D1DFA9EED00EFC2E3 /* UIColor+flat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+flat.m"; sourceTree = "<group>"; };
+		5ACA957E8A3DFC0ED21867DE /* libPods-MER_Player.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MER_Player.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CB33E8DDDE9B4DC11E2DD20 /* Pods-MER_Player.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MER_Player.release.xcconfig"; path = "Pods/Target Support Files/Pods-MER_Player/Pods-MER_Player.release.xcconfig"; sourceTree = "<group>"; };
+		9F55CF3D60282F01C7215121 /* Pods-MER_PlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MER_PlayerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MER_PlayerTests/Pods-MER_PlayerTests.release.xcconfig"; sourceTree = "<group>"; };
+		A256A7B8BE5B46F503BBB07A /* libPods-MER_PlayerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MER_PlayerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B246DF49648C9A0272D090 /* Pods-MER_Player.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MER_Player.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MER_Player/Pods-MER_Player.debug.xcconfig"; sourceTree = "<group>"; };
+		FE65D40721996DB7B95F6737 /* Pods-MER_PlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MER_PlayerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MER_PlayerTests/Pods-MER_PlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		111FF88F1DFA9DC600EFC2E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363689FCAEDE968CB393754C /* libPods-MER_Player.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		111FF8AB1DFA9DC600EFC2E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D857AA2020ECEC50DBD482F /* libPods-MER_PlayerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CA58F526C89E24345797512 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5ACA957E8A3DFC0ED21867DE /* libPods-MER_Player.a */,
+				A256A7B8BE5B46F503BBB07A /* libPods-MER_PlayerTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		111FF8891DFA9DC600EFC2E3 = {
+			isa = PBXGroup;
+			children = (
+				111FF8941DFA9DC600EFC2E3 /* MER_Player */,
+				111FF8B11DFA9DC600EFC2E3 /* MER_PlayerTests */,
+				111FF8931DFA9DC600EFC2E3 /* Products */,
+				2775D6EC40E7C8BE478DA042 /* Pods */,
+				0CA58F526C89E24345797512 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		111FF8931DFA9DC600EFC2E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				111FF8921DFA9DC600EFC2E3 /* MER_Player.app */,
+				111FF8AE1DFA9DC600EFC2E3 /* MER_PlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		111FF8941DFA9DC600EFC2E3 /* MER_Player */ = {
+			isa = PBXGroup;
+			children = (
+				111FF8BD1DFA9EED00EFC2E3 /* MER_Player */,
+				111FF8981DFA9DC600EFC2E3 /* AppDelegate.h */,
+				111FF8991DFA9DC600EFC2E3 /* AppDelegate.m */,
+				111FF89B1DFA9DC600EFC2E3 /* ViewController.h */,
+				111FF89C1DFA9DC600EFC2E3 /* ViewController.m */,
+				111FF89E1DFA9DC600EFC2E3 /* Main.storyboard */,
+				111FF8A41DFA9DC600EFC2E3 /* Assets.xcassets */,
+				111FF8A61DFA9DC600EFC2E3 /* LaunchScreen.storyboard */,
+				111FF8A91DFA9DC600EFC2E3 /* Info.plist */,
+				111FF8A11DFA9DC600EFC2E3 /* MER_Player.xcdatamodeld */,
+				111FF8951DFA9DC600EFC2E3 /* Supporting Files */,
+			);
+			path = MER_Player;
+			sourceTree = "<group>";
+		};
+		111FF8951DFA9DC600EFC2E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				111FF8961DFA9DC600EFC2E3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		111FF8B11DFA9DC600EFC2E3 /* MER_PlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				111FF8B21DFA9DC600EFC2E3 /* MER_PlayerTests.m */,
+				111FF8B41DFA9DC600EFC2E3 /* Info.plist */,
+			);
+			path = MER_PlayerTests;
+			sourceTree = "<group>";
+		};
+		111FF8BD1DFA9EED00EFC2E3 /* MER_Player */ = {
+			isa = PBXGroup;
+			children = (
+				111FF8F71DFA9EED00EFC2E3 /* PrefixHeader.pch */,
+				111FF8BE1DFA9EED00EFC2E3 /* Header.h */,
+				111FF8BF1DFA9EED00EFC2E3 /* Player */,
+				111FF8F81DFA9EED00EFC2E3 /* Resources */,
+				111FF9291DFA9EED00EFC2E3 /* Tool */,
+			);
+			path = MER_Player;
+			sourceTree = "<group>";
+		};
+		111FF8BF1DFA9EED00EFC2E3 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				111FF8C01DFA9EED00EFC2E3 /* Controller */,
+				111FF8C51DFA9EED00EFC2E3 /* Model */,
+				111FF8C81DFA9EED00EFC2E3 /* Resource */,
+				111FF8E61DFA9EED00EFC2E3 /* View */,
+			);
+			name = Player;
+			path = One;
+			sourceTree = "<group>";
+		};
+		111FF8C01DFA9EED00EFC2E3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				111FF8C11DFA9EED00EFC2E3 /* MER_MoviePlayerViewController.h */,
+				111FF8C21DFA9EED00EFC2E3 /* MER_MoviePlayerViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		111FF8C51DFA9EED00EFC2E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				111FF8C61DFA9EED00EFC2E3 /* MER_PlayModel.h */,
+				111FF8C71DFA9EED00EFC2E3 /* MER_PlayModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		111FF8C81DFA9EED00EFC2E3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				111FF8C91DFA9EED00EFC2E3 /* Assets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		111FF8C91DFA9EED00EFC2E3 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				111FF8CA1DFA9EED00EFC2E3 /* kr-video-player-close@2x.png */,
+				111FF8CB1DFA9EED00EFC2E3 /* kr-video-player-close@3x.png */,
+				111FF8CC1DFA9EED00EFC2E3 /* kr-video-player-fullscreen@2x.png */,
+				111FF8CD1DFA9EED00EFC2E3 /* kr-video-player-fullscreen@3x.png */,
+				111FF8CE1DFA9EED00EFC2E3 /* kr-video-player-pause@2x.png */,
+				111FF8CF1DFA9EED00EFC2E3 /* kr-video-player-pause@3x.png */,
+				111FF8D01DFA9EED00EFC2E3 /* kr-video-player-play@2x.png */,
+				111FF8D11DFA9EED00EFC2E3 /* kr-video-player-play@3x.png */,
+				111FF8D21DFA9EED00EFC2E3 /* kr-video-player-point@2x.png */,
+				111FF8D31DFA9EED00EFC2E3 /* kr-video-player-point@3x.png */,
+				111FF8D41DFA9EED00EFC2E3 /* kr-video-player-shrinkscreen@2x.png */,
+				111FF8D51DFA9EED00EFC2E3 /* kr-video-player-shrinkscreen@3x.png */,
+				111FF8D61DFA9EED00EFC2E3 /* zx-video-banner-back.png */,
+				111FF8D71DFA9EED00EFC2E3 /* zx-video-banner-back@2x.png */,
+				111FF8D81DFA9EED00EFC2E3 /* zx-video-player-brightness@2x.png */,
+				111FF8D91DFA9EED00EFC2E3 /* zx-video-player-brightness@3x.png */,
+				111FF8DA1DFA9EED00EFC2E3 /* zx-video-player-fastForward@2x.png */,
+				111FF8DB1DFA9EED00EFC2E3 /* zx-video-player-fastForward@3x.png */,
+				111FF8DC1DFA9EED00EFC2E3 /* zx-video-player-lock@2x.png */,
+				111FF8DD1DFA9EED00EFC2E3 /* zx-video-player-lock@3x.png */,
+				111FF8DE1DFA9EED00EFC2E3 /* zx-video-player-rewind@2x.png */,
+				111FF8DF1DFA9EED00EFC2E3 /* zx-video-player-rewind@3x.png */,
+				111FF8E01DFA9EED00EFC2E3 /* zx-video-player-unlock@2x.png */,
+				111FF8E11DFA9EED00EFC2E3 /* zx-video-player-unlock@3x.png */,
+				111FF8E21DFA9EED00EFC2E3 /* zx-video-player-volume@2x.png */,
+				111FF8E31DFA9EED00EFC2E3 /* zx-video-player-volume@3x.png */,
+				111FF8E41DFA9EED00EFC2E3 /* zx-video-player-volumeMute@2x.png */,
+				111FF8E51DFA9EED00EFC2E3 /* zx-video-player-volumeMute@3x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		111FF8E61DFA9EED00EFC2E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				111FF8E71DFA9EED00EFC2E3 /* MER_PlayerControlDelegate.h */,
+				111FF8E81DFA9EED00EFC2E3 /* MER_PlayerControllerView.h */,
+				111FF8E91DFA9EED00EFC2E3 /* MER_PlayerControllerView.m */,
+				111FF8EA1DFA9EED00EFC2E3 /* MER_PlayerView.h */,
+				111FF8EB1DFA9EED00EFC2E3 /* MER_PlayerView.m */,
+				111FF8EC1DFA9EED00EFC2E3 /* Slider */,
+				111FF8F31DFA9EED00EFC2E3 /* ZXVideoPlayerBrightnessView.h */,
+				111FF8F41DFA9EED00EFC2E3 /* ZXVideoPlayerBrightnessView.m */,
+				111FF8F51DFA9EED00EFC2E3 /* ZXVideoPlayerVolumeView.h */,
+				111FF8F61DFA9EED00EFC2E3 /* ZXVideoPlayerVolumeView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		111FF8EC1DFA9EED00EFC2E3 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				111FF8ED1DFA9EED00EFC2E3 /* AC_ProgressSlider.h */,
+				111FF8EE1DFA9EED00EFC2E3 /* AC_ProgressSlider.m */,
+				111FF8EF1DFA9EED00EFC2E3 /* ASValuePopUpView.h */,
+				111FF8F01DFA9EED00EFC2E3 /* ASValuePopUpView.m */,
+				111FF8F11DFA9EED00EFC2E3 /* ASValueTrackingSlider.h */,
+				111FF8F21DFA9EED00EFC2E3 /* ASValueTrackingSlider.m */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
+		111FF8F81DFA9EED00EFC2E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				111FF8F91DFA9EED00EFC2E3 /* resource */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		111FF8F91DFA9EED00EFC2E3 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				111FF8FA1DFA9EED00EFC2E3 /* MERPlayer_back_full.png */,
+				111FF8FB1DFA9EED00EFC2E3 /* MERPlayer_back_full@2x.png */,
+				111FF8FC1DFA9EED00EFC2E3 /* MERPlayer_back_full@3x.png */,
+				111FF8FD1DFA9EED00EFC2E3 /* MERPlayer_bottom_shadow.png */,
+				111FF8FE1DFA9EED00EFC2E3 /* MERPlayer_brightness@2x.png */,
+				111FF8FF1DFA9EED00EFC2E3 /* MERPlayer_close.png */,
+				111FF9001DFA9EED00EFC2E3 /* MERPlayer_close@2x.png */,
+				111FF9011DFA9EED00EFC2E3 /* MERPlayer_close@3x.png */,
+				111FF9021DFA9EED00EFC2E3 /* MERPlayer_download@2x.png */,
+				111FF9031DFA9EED00EFC2E3 /* MERPlayer_download@3x.png */,
+				111FF9041DFA9EED00EFC2E3 /* MERPlayer_fastForward@2x.png */,
+				111FF9051DFA9EED00EFC2E3 /* MERPlayer_fastForward@3x.png */,
+				111FF9061DFA9EED00EFC2E3 /* MERPlayer_fastRewind@2x.png */,
+				111FF9071DFA9EED00EFC2E3 /* MERPlayer_fastRewind@3x.png */,
+				111FF9081DFA9EED00EFC2E3 /* MERPlayer_fullscreen.png */,
+				111FF9091DFA9EED00EFC2E3 /* MERPlayer_fullscreen@2x.png */,
+				111FF90A1DFA9EED00EFC2E3 /* MERPlayer_fullscreen@3x.png */,
+				111FF90B1DFA9EED00EFC2E3 /* MERPlayer_loading_bgView.jpg */,
+				111FF90C1DFA9EED00EFC2E3 /* MERPlayer_lock-nor.png */,
+				111FF90D1DFA9EED00EFC2E3 /* MERPlayer_lock-nor@2x.png */,
+				111FF90E1DFA9EED00EFC2E3 /* MERPlayer_lock-nor@3x.png */,
+				111FF90F1DFA9EED00EFC2E3 /* MERPlayer_management_mask@2x.png */,
+				111FF9101DFA9EED00EFC2E3 /* MERPlayer_next.png */,
+				111FF9111DFA9EED00EFC2E3 /* MERPlayer_next@2x.png */,
+				111FF9121DFA9EED00EFC2E3 /* MERPlayer_next@3x.png */,
+				111FF9131DFA9EED00EFC2E3 /* MERPlayer_not_download@2x.png */,
+				111FF9141DFA9EED00EFC2E3 /* MERPlayer_not_download@3x.png */,
+				111FF9151DFA9EED00EFC2E3 /* MERPlayer_pause.png */,
+				111FF9161DFA9EED00EFC2E3 /* MERPlayer_pause@2x.png */,
+				111FF9171DFA9EED00EFC2E3 /* MERPlayer_pause@3x.png */,
+				111FF9181DFA9EED00EFC2E3 /* MERPlayer_play.png */,
+				111FF9191DFA9EED00EFC2E3 /* MERPlayer_play@2x.png */,
+				111FF91A1DFA9EED00EFC2E3 /* MERPlayer_play@3x.png */,
+				111FF91B1DFA9EED00EFC2E3 /* MERPlayer_play_btn@2x.png */,
+				111FF91C1DFA9EED00EFC2E3 /* MERPlayer_repeat_video.png */,
+				111FF91D1DFA9EED00EFC2E3 /* MERPlayer_repeat_video@2x.png */,
+				111FF91E1DFA9EED00EFC2E3 /* MERPlayer_repeat_video@3x.png */,
+				111FF91F1DFA9EED00EFC2E3 /* MERPlayer_shrinkscreen.png */,
+				111FF9201DFA9EED00EFC2E3 /* MERPlayer_shrinkscreen@2x.png */,
+				111FF9211DFA9EED00EFC2E3 /* MERPlayer_shrinkscreen@3x.png */,
+				111FF9221DFA9EED00EFC2E3 /* MERPlayer_slider.png */,
+				111FF9231DFA9EED00EFC2E3 /* MERPlayer_slider@2x.png */,
+				111FF9241DFA9EED00EFC2E3 /* MERPlayer_slider@3x.png */,
+				111FF9251DFA9EED00EFC2E3 /* MERPlayer_top_shadow.png */,
+				111FF9261DFA9EED00EFC2E3 /* MERPlayer_unlock-nor.png */,
+				111FF9271DFA9EED00EFC2E3 /* MERPlayer_unlock-nor@2x.png */,
+				111FF9281DFA9EED00EFC2E3 /* MERPlayer_unlock-nor@3x.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		111FF9291DFA9EED00EFC2E3 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				111FF92A1DFA9EED00EFC2E3 /* FeHourGlass.h */,
+				111FF92B1DFA9EED00EFC2E3 /* FeHourGlass.m */,
+				111FF92C1DFA9EED00EFC2E3 /* UIColor+flat.h */,
+				111FF92D1DFA9EED00EFC2E3 /* UIColor+flat.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		2775D6EC40E7C8BE478DA042 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9B246DF49648C9A0272D090 /* Pods-MER_Player.debug.xcconfig */,
+				6CB33E8DDDE9B4DC11E2DD20 /* Pods-MER_Player.release.xcconfig */,
+				FE65D40721996DB7B95F6737 /* Pods-MER_PlayerTests.debug.xcconfig */,
+				9F55CF3D60282F01C7215121 /* Pods-MER_PlayerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		111FF8911DFA9DC600EFC2E3 /* MER_Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 111FF8B71DFA9DC600EFC2E3 /* Build configuration list for PBXNativeTarget "MER_Player" */;
+			buildPhases = (
+				EB2596C7C3909A5B84D31FC8 /* [CP] Check Pods Manifest.lock */,
+				111FF88E1DFA9DC600EFC2E3 /* Sources */,
+				111FF88F1DFA9DC600EFC2E3 /* Frameworks */,
+				111FF8901DFA9DC600EFC2E3 /* Resources */,
+				221AF1944E19733EA6A4867B /* [CP] Embed Pods Frameworks */,
+				3AACC22680C51A29EC5D97F7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MER_Player;
+			productName = MER_Player;
+			productReference = 111FF8921DFA9DC600EFC2E3 /* MER_Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+		111FF8AD1DFA9DC600EFC2E3 /* MER_PlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 111FF8BA1DFA9DC600EFC2E3 /* Build configuration list for PBXNativeTarget "MER_PlayerTests" */;
+			buildPhases = (
+				09966473EB97B101538F461B /* [CP] Check Pods Manifest.lock */,
+				111FF8AA1DFA9DC600EFC2E3 /* Sources */,
+				111FF8AB1DFA9DC600EFC2E3 /* Frameworks */,
+				111FF8AC1DFA9DC600EFC2E3 /* Resources */,
+				0D32D89D1B58AF9AD9D5FBC2 /* [CP] Embed Pods Frameworks */,
+				963E97D64658649A5B06B537 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				111FF8B01DFA9DC600EFC2E3 /* PBXTargetDependency */,
+			);
+			name = MER_PlayerTests;
+			productName = MER_PlayerTests;
+			productReference = 111FF8AE1DFA9DC600EFC2E3 /* MER_PlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		111FF88A1DFA9DC600EFC2E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "不会爬树的熊";
+				TargetAttributes = {
+					111FF8911DFA9DC600EFC2E3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AL79FLL337;
+						ProvisioningStyle = Automatic;
+					};
+					111FF8AD1DFA9DC600EFC2E3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AL79FLL337;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 111FF8911DFA9DC600EFC2E3;
+					};
+				};
+			};
+			buildConfigurationList = 111FF88D1DFA9DC600EFC2E3 /* Build configuration list for PBXProject "MER_Player" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 111FF8891DFA9DC600EFC2E3;
+			productRefGroup = 111FF8931DFA9DC600EFC2E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				111FF8911DFA9DC600EFC2E3 /* MER_Player */,
+				111FF8AD1DFA9DC600EFC2E3 /* MER_PlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		111FF8901DFA9DC600EFC2E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111FF94C1DFA9EED00EFC2E3 /* zx-video-player-volumeMute@3x.png in Resources */,
+				111FF9821DFA9EED00EFC2E3 /* MERPlayer_unlock-nor@3x.png in Resources */,
+				111FF9751DFA9EED00EFC2E3 /* MERPlayer_play_btn@2x.png in Resources */,
+				111FF97E1DFA9EED00EFC2E3 /* MERPlayer_slider@3x.png in Resources */,
+				111FF97C1DFA9EED00EFC2E3 /* MERPlayer_slider.png in Resources */,
+				111FF9451DFA9EED00EFC2E3 /* zx-video-player-rewind@2x.png in Resources */,
+				111FF9611DFA9EED00EFC2E3 /* MERPlayer_fastRewind@3x.png in Resources */,
+				111FF9431DFA9EED00EFC2E3 /* zx-video-player-lock@2x.png in Resources */,
+				111FF9791DFA9EED00EFC2E3 /* MERPlayer_shrinkscreen.png in Resources */,
+				111FF9371DFA9EED00EFC2E3 /* kr-video-player-play@2x.png in Resources */,
+				111FF9631DFA9EED00EFC2E3 /* MERPlayer_fullscreen@2x.png in Resources */,
+				111FF9321DFA9EED00EFC2E3 /* kr-video-player-close@3x.png in Resources */,
+				111FF9441DFA9EED00EFC2E3 /* zx-video-player-lock@3x.png in Resources */,
+				111FF93D1DFA9EED00EFC2E3 /* zx-video-banner-back.png in Resources */,
+				111FF94A1DFA9EED00EFC2E3 /* zx-video-player-volume@3x.png in Resources */,
+				111FF97F1DFA9EED00EFC2E3 /* MERPlayer_top_shadow.png in Resources */,
+				111FF93E1DFA9EED00EFC2E3 /* zx-video-banner-back@2x.png in Resources */,
+				111FF9381DFA9EED00EFC2E3 /* kr-video-player-play@3x.png in Resources */,
+				111FF96D1DFA9EED00EFC2E3 /* MERPlayer_not_download@2x.png in Resources */,
+				111FF9781DFA9EED00EFC2E3 /* MERPlayer_repeat_video@3x.png in Resources */,
+				111FF96E1DFA9EED00EFC2E3 /* MERPlayer_not_download@3x.png in Resources */,
+				111FF9341DFA9EED00EFC2E3 /* kr-video-player-fullscreen@3x.png in Resources */,
+				111FF9461DFA9EED00EFC2E3 /* zx-video-player-rewind@3x.png in Resources */,
+				111FF95D1DFA9EED00EFC2E3 /* MERPlayer_download@3x.png in Resources */,
+				111FF9691DFA9EED00EFC2E3 /* MERPlayer_management_mask@2x.png in Resources */,
+				111FF9651DFA9EED00EFC2E3 /* MERPlayer_loading_bgView.jpg in Resources */,
+				111FF9621DFA9EED00EFC2E3 /* MERPlayer_fullscreen.png in Resources */,
+				111FF93A1DFA9EED00EFC2E3 /* kr-video-player-point@3x.png in Resources */,
+				111FF9561DFA9EED00EFC2E3 /* MERPlayer_back_full@3x.png in Resources */,
+				111FF9671DFA9EED00EFC2E3 /* MERPlayer_lock-nor@2x.png in Resources */,
+				111FF95F1DFA9EED00EFC2E3 /* MERPlayer_fastForward@3x.png in Resources */,
+				111FF9491DFA9EED00EFC2E3 /* zx-video-player-volume@2x.png in Resources */,
+				111FF9801DFA9EED00EFC2E3 /* MERPlayer_unlock-nor.png in Resources */,
+				111FF9741DFA9EED00EFC2E3 /* MERPlayer_play@3x.png in Resources */,
+				111FF95E1DFA9EED00EFC2E3 /* MERPlayer_fastForward@2x.png in Resources */,
+				111FF9331DFA9EED00EFC2E3 /* kr-video-player-fullscreen@2x.png in Resources */,
+				111FF9681DFA9EED00EFC2E3 /* MERPlayer_lock-nor@3x.png in Resources */,
+				111FF9401DFA9EED00EFC2E3 /* zx-video-player-brightness@3x.png in Resources */,
+				111FF8A81DFA9DC600EFC2E3 /* LaunchScreen.storyboard in Resources */,
+				111FF9711DFA9EED00EFC2E3 /* MERPlayer_pause@3x.png in Resources */,
+				111FF97A1DFA9EED00EFC2E3 /* MERPlayer_shrinkscreen@2x.png in Resources */,
+				111FF8A51DFA9DC600EFC2E3 /* Assets.xcassets in Resources */,
+				111FF93F1DFA9EED00EFC2E3 /* zx-video-player-brightness@2x.png in Resources */,
+				111FF96B1DFA9EED00EFC2E3 /* MERPlayer_next@2x.png in Resources */,
+				111FF9701DFA9EED00EFC2E3 /* MERPlayer_pause@2x.png in Resources */,
+				111FF8A01DFA9DC600EFC2E3 /* Main.storyboard in Resources */,
+				111FF9761DFA9EED00EFC2E3 /* MERPlayer_repeat_video.png in Resources */,
+				111FF96F1DFA9EED00EFC2E3 /* MERPlayer_pause.png in Resources */,
+				111FF9731DFA9EED00EFC2E3 /* MERPlayer_play@2x.png in Resources */,
+				111FF9721DFA9EED00EFC2E3 /* MERPlayer_play.png in Resources */,
+				111FF93B1DFA9EED00EFC2E3 /* kr-video-player-shrinkscreen@2x.png in Resources */,
+				111FF9361DFA9EED00EFC2E3 /* kr-video-player-pause@3x.png in Resources */,
+				111FF93C1DFA9EED00EFC2E3 /* kr-video-player-shrinkscreen@3x.png in Resources */,
+				111FF9551DFA9EED00EFC2E3 /* MERPlayer_back_full@2x.png in Resources */,
+				111FF9811DFA9EED00EFC2E3 /* MERPlayer_unlock-nor@2x.png in Resources */,
+				111FF9661DFA9EED00EFC2E3 /* MERPlayer_lock-nor.png in Resources */,
+				111FF9581DFA9EED00EFC2E3 /* MERPlayer_brightness@2x.png in Resources */,
+				111FF97D1DFA9EED00EFC2E3 /* MERPlayer_slider@2x.png in Resources */,
+				111FF9311DFA9EED00EFC2E3 /* kr-video-player-close@2x.png in Resources */,
+				111FF95B1DFA9EED00EFC2E3 /* MERPlayer_close@3x.png in Resources */,
+				111FF9421DFA9EED00EFC2E3 /* zx-video-player-fastForward@3x.png in Resources */,
+				111FF9351DFA9EED00EFC2E3 /* kr-video-player-pause@2x.png in Resources */,
+				111FF95C1DFA9EED00EFC2E3 /* MERPlayer_download@2x.png in Resources */,
+				111FF9571DFA9EED00EFC2E3 /* MERPlayer_bottom_shadow.png in Resources */,
+				111FF9471DFA9EED00EFC2E3 /* zx-video-player-unlock@2x.png in Resources */,
+				111FF97B1DFA9EED00EFC2E3 /* MERPlayer_shrinkscreen@3x.png in Resources */,
+				111FF96A1DFA9EED00EFC2E3 /* MERPlayer_next.png in Resources */,
+				111FF9391DFA9EED00EFC2E3 /* kr-video-player-point@2x.png in Resources */,
+				111FF9481DFA9EED00EFC2E3 /* zx-video-player-unlock@3x.png in Resources */,
+				111FF9771DFA9EED00EFC2E3 /* MERPlayer_repeat_video@2x.png in Resources */,
+				111FF9591DFA9EED00EFC2E3 /* MERPlayer_close.png in Resources */,
+				111FF9601DFA9EED00EFC2E3 /* MERPlayer_fastRewind@2x.png in Resources */,
+				111FF96C1DFA9EED00EFC2E3 /* MERPlayer_next@3x.png in Resources */,
+				111FF9541DFA9EED00EFC2E3 /* MERPlayer_back_full.png in Resources */,
+				111FF9641DFA9EED00EFC2E3 /* MERPlayer_fullscreen@3x.png in Resources */,
+				111FF94B1DFA9EED00EFC2E3 /* zx-video-player-volumeMute@2x.png in Resources */,
+				111FF9411DFA9EED00EFC2E3 /* zx-video-player-fastForward@2x.png in Resources */,
+				111FF95A1DFA9EED00EFC2E3 /* MERPlayer_close@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		111FF8AC1DFA9DC600EFC2E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09966473EB97B101538F461B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0D32D89D1B58AF9AD9D5FBC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MER_PlayerTests/Pods-MER_PlayerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		221AF1944E19733EA6A4867B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MER_Player/Pods-MER_Player-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AACC22680C51A29EC5D97F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MER_Player/Pods-MER_Player-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		963E97D64658649A5B06B537 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MER_PlayerTests/Pods-MER_PlayerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB2596C7C3909A5B84D31FC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		111FF88E1DFA9DC600EFC2E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111FF94E1DFA9EED00EFC2E3 /* MER_PlayerView.m in Sources */,
+				111FF9301DFA9EED00EFC2E3 /* MER_PlayModel.m in Sources */,
+				111FF89D1DFA9DC600EFC2E3 /* ViewController.m in Sources */,
+				111FF9831DFA9EED00EFC2E3 /* FeHourGlass.m in Sources */,
+				111FF89A1DFA9DC600EFC2E3 /* AppDelegate.m in Sources */,
+				111FF9511DFA9EED00EFC2E3 /* ASValueTrackingSlider.m in Sources */,
+				111FF9501DFA9EED00EFC2E3 /* ASValuePopUpView.m in Sources */,
+				111FF9841DFA9EED00EFC2E3 /* UIColor+flat.m in Sources */,
+				111FF94D1DFA9EED00EFC2E3 /* MER_PlayerControllerView.m in Sources */,
+				111FF8971DFA9DC600EFC2E3 /* main.m in Sources */,
+				111FF94F1DFA9EED00EFC2E3 /* AC_ProgressSlider.m in Sources */,
+				111FF92E1DFA9EED00EFC2E3 /* MER_MoviePlayerViewController.m in Sources */,
+				111FF9531DFA9EED00EFC2E3 /* ZXVideoPlayerVolumeView.m in Sources */,
+				111FF8A31DFA9DC600EFC2E3 /* MER_Player.xcdatamodeld in Sources */,
+				111FF9521DFA9EED00EFC2E3 /* ZXVideoPlayerBrightnessView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		111FF8AA1DFA9DC600EFC2E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111FF8B31DFA9DC600EFC2E3 /* MER_PlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		111FF8B01DFA9DC600EFC2E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 111FF8911DFA9DC600EFC2E3 /* MER_Player */;
+			targetProxy = 111FF8AF1DFA9DC600EFC2E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		111FF89E1DFA9DC600EFC2E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				111FF89F1DFA9DC600EFC2E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		111FF8A61DFA9DC600EFC2E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				111FF8A71DFA9DC600EFC2E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		111FF8B51DFA9DC600EFC2E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		111FF8B61DFA9DC600EFC2E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		111FF8B81DFA9DC600EFC2E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9B246DF49648C9A0272D090 /* Pods-MER_Player.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AL79FLL337;
+				GCC_PREFIX_HEADER = MER_Player/MER_Player/PrefixHeader.pch;
+				INFOPLIST_FILE = MER_Player/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hanzi.www.MER-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		111FF8B91DFA9DC600EFC2E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CB33E8DDDE9B4DC11E2DD20 /* Pods-MER_Player.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AL79FLL337;
+				GCC_PREFIX_HEADER = MER_Player/MER_Player/PrefixHeader.pch;
+				INFOPLIST_FILE = MER_Player/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hanzi.www.MER-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		111FF8BB1DFA9DC600EFC2E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE65D40721996DB7B95F6737 /* Pods-MER_PlayerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AL79FLL337;
+				INFOPLIST_FILE = MER_PlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hanzi.www.MER-PlayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MER_Player.app/MER_Player";
+			};
+			name = Debug;
+		};
+		111FF8BC1DFA9DC600EFC2E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F55CF3D60282F01C7215121 /* Pods-MER_PlayerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AL79FLL337;
+				INFOPLIST_FILE = MER_PlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hanzi.www.MER-PlayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MER_Player.app/MER_Player";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		111FF88D1DFA9DC600EFC2E3 /* Build configuration list for PBXProject "MER_Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				111FF8B51DFA9DC600EFC2E3 /* Debug */,
+				111FF8B61DFA9DC600EFC2E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		111FF8B71DFA9DC600EFC2E3 /* Build configuration list for PBXNativeTarget "MER_Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				111FF8B81DFA9DC600EFC2E3 /* Debug */,
+				111FF8B91DFA9DC600EFC2E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		111FF8BA1DFA9DC600EFC2E3 /* Build configuration list for PBXNativeTarget "MER_PlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				111FF8BB1DFA9DC600EFC2E3 /* Debug */,
+				111FF8BC1DFA9DC600EFC2E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		111FF8A11DFA9DC600EFC2E3 /* MER_Player.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				111FF8A21DFA9DC600EFC2E3 /* MER_Player.xcdatamodel */,
+			);
+			currentVersion = 111FF8A21DFA9DC600EFC2E3 /* MER_Player.xcdatamodel */;
+			path = MER_Player.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 111FF88A1DFA9DC600EFC2E3 /* Project object */;
+}

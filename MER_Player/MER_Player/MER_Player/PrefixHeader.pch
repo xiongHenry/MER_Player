@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  写个播放器试试
+//
+//  Created by 汉子MacBook－Pro on 2016/11/23.
+//  Copyright © 2016年 广州汉子信息科技有限公司. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Masonry.h"
+#import "Header.h"
+#import "MER_PlayerControlDelegate.h"
+
+#endif /* PrefixHeader_pch */
